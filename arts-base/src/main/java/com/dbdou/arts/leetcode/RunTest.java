@@ -39,9 +39,13 @@ public class RunTest {
 //        int result007 = run007.reverse(0);
 //        System.out.println(result007);
 
-        Medium008StringToInteger run008 = new Medium008StringToInteger();
-        int result008 = run008.myAtoi("-");
-        System.out.println(result008);
+//        Medium008StringToInteger run008 = new Medium008StringToInteger();
+//        int result008 = run008.myAtoi("-");
+//        System.out.println(result008);
+
+        Easy009PalindromeNumber run009 = new Easy009PalindromeNumber();
+        boolean result009 = run009.isPalindrome(1012332101);
+        System.out.println(result009);
 
     }
 
