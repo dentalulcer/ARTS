@@ -43,9 +43,13 @@ public class RunTest {
 //        int result008 = run008.myAtoi("-");
 //        System.out.println(result008);
 
-        Easy009PalindromeNumber run009 = new Easy009PalindromeNumber();
-        boolean result009 = run009.isPalindrome(1012332101);
-        System.out.println(result009);
+//        Easy009PalindromeNumber run009 = new Easy009PalindromeNumber();
+//        boolean result009 = run009.isPalindrome(1012332101);
+//        System.out.println(result009);
+
+        Easy014LongestCommonPrefix run014 = new Easy014LongestCommonPrefix();
+        String result014 = run014.longestCommonPrefix(new String[]{"flower","flow","flight"});
+        System.out.println(result014);
 
     }
 
