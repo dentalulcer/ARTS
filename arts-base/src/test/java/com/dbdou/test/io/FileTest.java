@@ -1,7 +1,9 @@
 package com.dbdou.test.io;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,16 +23,42 @@ public class FileTest {
 //        test3();
 //        test4();
 //        test5();
-        test6();
+//        test6();
+//        test7();
 
+
+    }
+
+    private static void test7() {
+        try {
+            RandomAccessFile raf = new RandomAccessFile(TEST_BASE_DIR + File.separator + "hello.txt", "r");
+//            raf.seek(raf.length());
+//            raf.write("abc".getBytes());
+
+//            System.out.println(raf.length());
+//            raf.seek(0);
+//            byte[] buff = new byte[1024];
+//            int hasRead = 0;
+//            while ((hasRead = raf.read()) > 0) {
+//                System.out.println(new String(buff, 0, hasRead));
+//            }
+
+            System.out.println(new String(raf.readLine().getBytes("ISO-8859-1"), "utf-8"));
+
+            raf.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void test6() {
         List<String> list = new ArrayList<>();
         File file = new File(TEST_BASE_DIR);
         test61(file, list);
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
+        for (String aList : list) {
+            System.out.println(aList);
         }
     }
 
