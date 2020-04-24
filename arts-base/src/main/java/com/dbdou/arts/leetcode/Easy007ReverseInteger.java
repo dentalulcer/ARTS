@@ -1,7 +1,7 @@
 package com.dbdou.arts.leetcode;
 
 /**
- * Created by 002192 on 2019/2/22.
+ * Created by 002192 .
  */
 public class Easy007ReverseInteger {
 

@@ -1,7 +1,7 @@
 package com.dbdou.arts.leetcode;
 
 /**
- * Created by 002192 on 2019/2/18.
+ * Created by 002192 .
  */
 public class RunTest {
 

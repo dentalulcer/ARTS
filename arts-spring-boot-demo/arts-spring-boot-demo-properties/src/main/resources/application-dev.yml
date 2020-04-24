@@ -1,0 +1,8 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+developer:
+  name: dev环境 dentalulcer
+  website: dev环境 www.dbdou.com
+  qq: dev环境 1508190100
+  phone-number: dev环境 18301306979
