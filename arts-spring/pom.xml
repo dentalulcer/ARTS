@@ -26,7 +26,7 @@
         <common-lang-version>3.8.1</common-lang-version>
         <common-httpclient-version>3.0.1</common-httpclient-version>
         <fastjson-version>1.2.28</fastjson-version>
-        <xstream-version>1.4.6</xstream-version>
+        <xstream-version>1.4.19</xstream-version>
     </properties>
 
     <!-- 声明并引入，子项目继承依赖项目 -->
