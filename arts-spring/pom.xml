@@ -25,7 +25,7 @@
         <spring-boot-pagehelper-version>1.2.5</spring-boot-pagehelper-version>
         <common-lang-version>3.8.1</common-lang-version>
         <common-httpclient-version>3.0.1</common-httpclient-version>
-        <fastjson-version>1.2.28</fastjson-version>
+        <fastjson-version>1.2.83</fastjson-version>
         <xstream-version>1.4.6</xstream-version>
     </properties>
 
